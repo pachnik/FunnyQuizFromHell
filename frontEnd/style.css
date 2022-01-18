@@ -1,0 +1,39 @@
+body{
+    background-color: blueviolet;
+
+}
+#container{
+    margin: auto;
+    width: 1000px;
+    background-color: cadetblue;
+    text-align: center;
+}
+section{
+    padding: 1rem;
+    background-color: var(--barva-E);
+    margin: 1rem 0;
+    color: white;
+    overflow: hidden;
+    clear: both;
+}
+section > img{
+    float: left;
+    width: 300px;
+    margin-left: 1em;
+}
+section > p{
+    display: block;
+    padding-left: 360px ;
+    text-align: justify;
+}
+#create{
+    background-color: chartreuse;
+    width: 200px;
+    height: 50px;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+}
+#create > a{
+    position: relative;
+}
